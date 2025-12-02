@@ -1,0 +1,54 @@
+# Data Privacy & Confidentiality
+data/
+!data/README.md
+
+# Sensitive Model Files
+models/
+notebooks/trained_models/
+*.pth
+*.pt
+*.h5
+*.keras
+
+# Temporary & Cache Files
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environment & Dependencies
+.venv/
+venv/
+env/
+.env
+*.egg
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebooks (checkpoints & outputs)
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Output files (generated during analysis)
+*.png
+*.jpg
+*.jpeg
+comparison_inference_samples.png
+comparison_analysis.png
